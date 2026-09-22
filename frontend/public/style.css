@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Loader */
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #0f2027;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  flex-direction: column;
+}
+
+.spinner {
+  border: 6px solid rgba(255,255,255,0.2);
+  border-top: 6px solid #00f2fe;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+#loader h2 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #00f2fe;
+}
+
+/* Glow Effects */
+.glow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: #00f2fe;
+  filter: blur(150px);
+  opacity: 0.4;
+  top: 20%;
+  left: 10%;
+  z-index: 0;
+}
+
+.glow2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: #ff00cc;
+  filter: blur(150px);
+  opacity: 0.3;
+  bottom: 10%;
+  right: 10%;
+  z-index: 0;
+}
+
+/* Root container */
+#root {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}

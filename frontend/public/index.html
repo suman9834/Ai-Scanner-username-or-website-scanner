@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AI Vulnerability Scanner</title>
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3064/3064197.png">
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+    <h2>Initializing AI Scanner...</h2>
+  </div>
+
+  <!-- Glow Background -->
+  <div class="glow"></div>
+  <div class="glow2"></div>
+
+  <!-- React Root -->
+  <div id="root"></div>
+
+  <script>
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        document.getElementById("loader").style.display = "none";
+      }, 1500);
+    });
+  </script>
+
+</body>
+</html>
