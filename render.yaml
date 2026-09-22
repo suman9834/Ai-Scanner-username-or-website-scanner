@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ai-vulnerability-scanner
+    env: python
+    buildCommand: pip install -r backend/requirements.txt && npm --prefix frontend ci && npm --prefix frontend run build
+    startCommand: gunicorn --chdir backend app:app
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true

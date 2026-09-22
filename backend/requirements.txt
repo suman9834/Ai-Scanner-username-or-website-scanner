@@ -3,5 +3,6 @@ flask-cors
 requests
 python-dotenv
 bcrypt
+gunicorn
 
 
