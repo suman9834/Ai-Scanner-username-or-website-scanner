@@ -538,7 +538,7 @@ to GitHub.
 
 Make sure .env is included in .gitignore.
 
-🧪 Testing Checklist
+####🧪 Testing Checklist
 Before deploying changes, test the following.
 
 Authentication
@@ -707,7 +707,7 @@ Secret management
 Screenshots can be added to the repository using a screenshots directory.
 
 Example:
-
+# display
 screenshots/
 ├── home.png
 ├── dashboard.png
@@ -1909,25 +1909,21 @@ Secret management
 
 Screenshots can be added to the repository using a screenshots directory.
 
-Example:
+# Example:
 
 screenshots/
-
 ├── home.png
-
 ├── dashboard.png
-
 ├── osint.png
-
 └── phone-intelligence.png
 
 Then add them to this README:
 
-Home
+# Home
 
 ![AI Scanner Home](screenshots/home.png)
 
-Dashboard
+# Dashboard
 
 ![AI Scanner Dashboard](screenshots/dashboard.png)
 
