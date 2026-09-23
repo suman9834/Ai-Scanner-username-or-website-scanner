@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://ai-scanner-frontend-7yt8.onrender.com/">
-    🌐 Live Demo
+    🌐 Live Demo link : https://ai-scanner-frontend-7yt8.onrender.com/
   </a>
 </p>
 
@@ -211,11 +211,11 @@ The dashboard provides a centralized view of security activity.
 
 It includes:
 
-Risk Overview
+## Risk Overview
 ┌─────────────────────────────────────┐
-│          SECURITY OVERVIEW          │
+│          SECURITY OVERVIEW           │
 ├─────────────────────────────────────┤
-│ 🔴 High Risk                          │
+│ 🔴 High Risk                         │
 │ 🟠 Medium Risk                       │
 │ 🟢 Low Risk                          │
 └─────────────────────────────────────┘
@@ -329,10 +329,10 @@ Python Virtual Environment
 Deployment
 Render
 
-## GitHub
+GitHub
 
 📁 Project Structure
-AI Scanner
+AI Scanner username or website scanner
 │
 ├── backend/
 │   │
