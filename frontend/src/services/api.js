@@ -62,3 +62,17 @@ export const checkUsername = async (username) => {
 
   return res.json();
 };
+
+// Phone Intelligence / OSINT
+export const checkPhone = async (phone) => {
+  const res = await fetch(`${API_BASE}/osint/phone`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      ...getAuthHeaders(),
+    },
+    body: JSON.stringify({ phone }),
+  });
+
+  return res.json();
+};
