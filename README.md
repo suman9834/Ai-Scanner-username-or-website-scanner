@@ -1,25 +1,3 @@
-
-2f55e787-9deb-4ec7-9e81-0469f1039f2f.png
-yhi live kiya hu
-
-b5193703-eab5-4b1f-b49c-ca38ec1611a4.png
-
-e3d483be-58da-4a74-87d5-971db483eaa2.png
-isme kidhar add kru
-
-1442d61b-b4b2-4614-b7df-93401d8eee43.png
-
-562766a8-ef9f-45bd-be10-52101b698404.png
-
-0a1d7e4e-39ea-42fa-acab-150c1f8d1458.png
-
-9037a4fb-5e0d-4457-976f-9d083947c6bc.png
-kya fayda fir 
-
-Bilkul. Is baar README ko proper GitHub portfolio/project level pe bana dete hain—clean, professional, detailed, aur jo features tumhare project me actually hain sirf wahi claim karenge.
-
-Apne current README.md ko poora replace karke ye paste karo:
-
 # 🛡️ AI Scanner
 
 <p align="center">
