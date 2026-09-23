@@ -2009,7 +2009,7 @@ Understand potential security risks
 
 The project is also intended as a practical learning project for understanding how cybersecurity tools can be built using full-stack technologies.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Suman Kumar
 
@@ -2049,5 +2049,5 @@ Do not use this project against systems, accounts or information without appropr
 
 If you find this project useful for learning or research, consider giving the repository a ⭐ on GitHub.
 
-<p align="center"> Built with ❤️ using React, Flask, Python and cybersecurity concepts. </p> ```
+<p align="center"> Built with ❤️ using React, Flask, Python and cybersecurity concepts. </p>
 
